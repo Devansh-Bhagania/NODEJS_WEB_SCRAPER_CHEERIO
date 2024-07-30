@@ -7,6 +7,7 @@ const BASE_URL = 'https://en.wikipedia.org/wiki'; // Base URL for Wikipedia
 const PAGES = ['Node.js', 'JavaScript', 'Web_scraping']; // List of pages to scrape
 const OUTPUT_DIR = path.join(__dirname, 'data');
 
+// this file is server main file to run the code
 // Function to scrape data from a Wikipedia page
 const scrapeData = async (page) => {
     try {
